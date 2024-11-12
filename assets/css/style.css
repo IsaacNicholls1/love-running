@@ -64,7 +64,7 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    padding: 1rem;
+    padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -85,11 +85,19 @@ nav {
 
 /* main */
 main {
-    background-color: lightblue;
+
     /* make main element take up any surplus space */ 
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+
+}
+
 /* footer */ 
 #social-networks {
     text-align: center;
